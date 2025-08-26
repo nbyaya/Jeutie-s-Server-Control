@@ -16,7 +16,7 @@ WoW服务器重启工具。一个简单但实用的工具，用于自动重启Wo
 ## 如何运行：
 
 ### 方法1：下载预编译版本
-1. 从 [Binary文件夹](https://github.com/CraftedRO/Jeutie-s-Server-Control/raw/main/Binary/JeutiesServerControl.exe) 下载 `JeutiesServerControl.exe`
+1. 从 [Binary文件夹](https://github.com/nbyaya/Jeutie-s-Server-Control/blob/main/Binary/JeutiesServerControl.exe) 下载 `JeutiesServerControl.exe`
 2. 运行 `JeutiesServerControl.exe` 并为每个服务器指定路径
 
 ### 方法2：从源码编译
