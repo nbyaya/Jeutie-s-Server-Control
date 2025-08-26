@@ -1,0 +1,39 @@
+# 编译输出目录
+Binary/
+bin/
+obj/
+
+# Visual Studio相关文件
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ReSharper相关文件
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# 临时文件
+*.tmp
+*.temp
+*~
+*.log
+
+# 系统文件
+Thumbs.db
+.DS_Store
+
+# 调试文件
+*.pdb
+*.vshost.*
+
+# NuGet相关
+packages/
+*.nuget.props
+*.nuget.targets
+
+# 其他可能的临时文件
+*.cache
+*.bak
