@@ -146,20 +146,20 @@ namespace JeutieControl
       });
       this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
       this.fileToolStripMenuItem.Size = new Size(37, 20);
-      this.fileToolStripMenuItem.Text = "File";
+      this.fileToolStripMenuItem.Text = "文件";
       this.openWorldserverConfigToolStripMenuItem.Name = "openWorldserverConfigToolStripMenuItem";
       this.openWorldserverConfigToolStripMenuItem.Size = new Size(208, 22);
-      this.openWorldserverConfigToolStripMenuItem.Text = "Open Worldserver Config";
+      this.openWorldserverConfigToolStripMenuItem.Text = "打开世界服务器配置";
       this.openWorldserverConfigToolStripMenuItem.Click += new EventHandler(this.openWorldserverConfigToolStripMenuItem_Click);
       this.openAuthserverConfigToolStripMenuItem.Name = "openAuthserverConfigToolStripMenuItem";
       this.openAuthserverConfigToolStripMenuItem.Size = new Size(208, 22);
-      this.openAuthserverConfigToolStripMenuItem.Text = "Open Authserver Config";
+      this.openAuthserverConfigToolStripMenuItem.Text = "打开认证服务器配置";
       this.openAuthserverConfigToolStripMenuItem.Click += new EventHandler(this.openAuthserverConfigToolStripMenuItem_Click);
       this.breakToolStripMenuItem.Name = "breakToolStripMenuItem";
       this.breakToolStripMenuItem.Size = new Size(205, 6);
       this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
       this.exitToolStripMenuItem.Size = new Size(208, 22);
-      this.exitToolStripMenuItem.Text = "Exit";
+      this.exitToolStripMenuItem.Text = "退出";
       this.exitToolStripMenuItem.Click += new EventHandler(this.exitToolStripMenuItem_Click);
       this.optionsToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[2]
       {
@@ -168,11 +168,11 @@ namespace JeutieControl
       });
       this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
       this.optionsToolStripMenuItem.Size = new Size(61, 20);
-      this.optionsToolStripMenuItem.Text = "Options";
+      this.optionsToolStripMenuItem.Text = "选项";
       this.KeepOnTop.CheckOnClick = true;
       this.KeepOnTop.Name = "KeepOnTop";
       this.KeepOnTop.Size = new Size(154, 22);
-      this.KeepOnTop.Text = "Always On Top";
+      this.KeepOnTop.Text = "总是置顶";
       this.KeepOnTop.Click += new EventHandler(this.KeepOnTop_Click);
       this.transparencyToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[6]
       {
@@ -185,7 +185,7 @@ namespace JeutieControl
       });
       this.transparencyToolStripMenuItem.Name = "transparencyToolStripMenuItem";
       this.transparencyToolStripMenuItem.Size = new Size(154, 22);
-      this.transparencyToolStripMenuItem.Text = "Opacity";
+      this.transparencyToolStripMenuItem.Text = "透明度";
       this.Opacity100.Checked = true;
       this.Opacity100.CheckOnClick = true;
       this.Opacity100.CheckState = CheckState.Checked;
@@ -220,11 +220,11 @@ namespace JeutieControl
       this.Opacity50.Click += new EventHandler(this.Opacity50_Click);
       this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
       this.helpToolStripMenuItem.Size = new Size(44, 20);
-      this.helpToolStripMenuItem.Text = "Help";
+      this.helpToolStripMenuItem.Text = "帮助";
       this.helpToolStripMenuItem.Click += new EventHandler(this.helpToolStripMenuItem_Click);
       this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
       this.aboutToolStripMenuItem.Size = new Size(52, 20);
-      this.aboutToolStripMenuItem.Text = "About";
+      this.aboutToolStripMenuItem.Text = "关于";
       this.aboutToolStripMenuItem.Click += new EventHandler(this.aboutToolStripMenuItem_Click);
       this.MySQLPath.BorderStyle = BorderStyle.FixedSingle;
       this.MySQLPath.Font = new Font("Microsoft Sans Serif", 7.5f);
@@ -233,7 +233,7 @@ namespace JeutieControl
       this.MySQLPath.ReadOnly = true;
       this.MySQLPath.Size = new Size(270, 18);
       this.MySQLPath.TabIndex = 2;
-      this.MySQLPath.Text = "Path has not been set yet.";
+      this.MySQLPath.Text = "路径尚未设置。";
       this.ServerPath.AllowDrop = true;
       this.ServerPath.BorderStyle = BorderStyle.FixedSingle;
       this.ServerPath.Font = new Font("Microsoft Sans Serif", 7.5f);
@@ -242,14 +242,14 @@ namespace JeutieControl
       this.ServerPath.ReadOnly = true;
       this.ServerPath.Size = new Size(270, 18);
       this.ServerPath.TabIndex = 3;
-      this.ServerPath.Text = "Path has not been set yet.";
+      this.ServerPath.Text = "路径尚未设置。";
       this.AutoRestart.AutoSize = true;
       this.AutoRestart.Font = new Font("Microsoft Sans Serif", 11.25f, FontStyle.Regular, GraphicsUnit.Point, (byte) 0);
       this.AutoRestart.Location = new Point(12, 124);
       this.AutoRestart.Name = "AutoRestart";
       this.AutoRestart.Size = new Size(242, 22);
       this.AutoRestart.TabIndex = 8;
-      this.AutoRestart.Text = "Automatically restart upon crash.";
+      this.AutoRestart.Text = "崩溃时自动重启。";
       this.AutoRestart.UseVisualStyleBackColor = true;
       this.startWorld.BackColor = Color.Transparent;
       this.startWorld.ImageAlign = ContentAlignment.TopLeft;
@@ -257,7 +257,7 @@ namespace JeutieControl
       this.startWorld.Name = "startWorld";
       this.startWorld.Size = new Size(241, 40);
       this.startWorld.TabIndex = 9;
-      this.startWorld.Text = "Start the World server.";
+      this.startWorld.Text = "启动World服务器";
       this.startWorld.UseVisualStyleBackColor = false;
       this.startWorld.Click += new EventHandler(this.startWorld_Click);
       this.startAuth.BackColor = Color.Transparent;
@@ -265,7 +265,7 @@ namespace JeutieControl
       this.startAuth.Name = "startAuth";
       this.startAuth.Size = new Size(242, 40);
       this.startAuth.TabIndex = 10;
-      this.startAuth.Text = "Start the Auth server.";
+      this.startAuth.Text = "启动Auth服务器";
       this.startAuth.UseVisualStyleBackColor = false;
       this.startAuth.Click += new EventHandler(this.startAuth_Click);
       this.stopWorld.BackColor = Color.Transparent;
@@ -274,7 +274,7 @@ namespace JeutieControl
       this.stopWorld.Name = "stopWorld";
       this.stopWorld.Size = new Size(73, 40);
       this.stopWorld.TabIndex = 13;
-      this.stopWorld.Text = "Stop";
+      this.stopWorld.Text = "停止";
       this.stopWorld.UseVisualStyleBackColor = false;
       this.stopWorld.Click += new EventHandler(this.stopWorld_Click);
       this.stopAuth.BackColor = Color.Transparent;
@@ -282,56 +282,56 @@ namespace JeutieControl
       this.stopAuth.Name = "stopAuth";
       this.stopAuth.Size = new Size(73, 40);
       this.stopAuth.TabIndex = 14;
-      this.stopAuth.Text = "Stop";
+      this.stopAuth.Text = "停止";
       this.stopAuth.UseVisualStyleBackColor = false;
       this.stopAuth.Click += new EventHandler(this.stopAuth_Click);
       this.ServerPathButton.Location = new Point(12, 244);
       this.ServerPathButton.Name = "ServerPathButton";
       this.ServerPathButton.Size = new Size(91, 26);
       this.ServerPathButton.TabIndex = 15;
-      this.ServerPathButton.Text = "Server path";
+      this.ServerPathButton.Text = "服务器路径";
       this.ServerPathButton.UseVisualStyleBackColor = true;
       this.ServerPathButton.Click += new EventHandler(this.ServerPathButton_Click);
       this.MySQLPathButton.Location = new Point(12, 276);
       this.MySQLPathButton.Name = "MySQLPathButton";
       this.MySQLPathButton.Size = new Size(91, 26);
       this.MySQLPathButton.TabIndex = 16;
-      this.MySQLPathButton.Text = "MySQL path";
+      this.MySQLPathButton.Text = "MySQL路径";
       this.MySQLPathButton.UseVisualStyleBackColor = true;
       this.MySQLPathButton.Click += new EventHandler(this.MySQLPathButton_Click);
       this.ApachePathButton.Location = new Point(12, 308);
       this.ApachePathButton.Name = "ApachePathButton";
       this.ApachePathButton.Size = new Size(91, 26);
       this.ApachePathButton.TabIndex = 17;
-      this.ApachePathButton.Text = "Apache path";
+      this.ApachePathButton.Text = "Apache路径";
       this.ApachePathButton.UseVisualStyleBackColor = true;
       this.ApachePathButton.Click += new EventHandler(this.ApachePathButton_Click);
       this.startMySQL.Location = new Point(58, 152);
       this.startMySQL.Name = "startMySQL";
       this.startMySQL.Size = new Size(242, 40);
       this.startMySQL.TabIndex = 20;
-      this.startMySQL.Text = "Start the MySQL server.";
+      this.startMySQL.Text = "启动MySQL服务器";
       this.startMySQL.UseVisualStyleBackColor = true;
       this.startMySQL.Click += new EventHandler(this.startMySQL_Click);
       this.startApache.Location = new Point(58, 198);
       this.startApache.Name = "startApache";
       this.startApache.Size = new Size(242, 40);
       this.startApache.TabIndex = 21;
-      this.startApache.Text = "Start the Apache server.";
+      this.startApache.Text = "启动Apache服务器";
       this.startApache.UseVisualStyleBackColor = true;
       this.startApache.Click += new EventHandler(this.startApache_Click);
       this.stopMySQL.Location = new Point(306, 152);
       this.stopMySQL.Name = "stopMySQL";
       this.stopMySQL.Size = new Size(73, 40);
       this.stopMySQL.TabIndex = 22;
-      this.stopMySQL.Text = "Stop";
+      this.stopMySQL.Text = "停止";
       this.stopMySQL.UseVisualStyleBackColor = true;
       this.stopMySQL.Click += new EventHandler(this.stopMySQL_Click);
       this.stopApache.Location = new Point(306, 198);
       this.stopApache.Name = "stopApache";
       this.stopApache.Size = new Size(73, 40);
       this.stopApache.TabIndex = 23;
-      this.stopApache.Text = "Stop";
+      this.stopApache.Text = "停止";
       this.stopApache.UseVisualStyleBackColor = true;
       this.stopApache.Click += new EventHandler(this.stopApache_Click);
       this.pictureBox4.BackgroundImageLayout = ImageLayout.None;
@@ -383,7 +383,7 @@ namespace JeutieControl
       this.ApachePath.ReadOnly = true;
       this.ApachePath.Size = new Size(270, 18);
       this.ApachePath.TabIndex = 1;
-      this.ApachePath.Text = "Path has not been set yet.";
+      this.ApachePath.Text = "路径尚未设置。";
       this.AutoScaleDimensions = new SizeF(6f, 13f);
       this.AutoScaleMode = AutoScaleMode.Font;
       this.ClientSize = new Size(391, 486);
@@ -413,7 +413,7 @@ namespace JeutieControl
       this.MainMenuStrip = this.menuStrip1;
       this.MaximizeBox = false;
       this.Name = nameof (Form1);
-      this.Text = "Jeutie's Server Restarter";
+      this.Text = "Jeutie's 服务器控制面板";
       this.Load += new EventHandler(this.Form1_Load);
       this.menuStrip1.ResumeLayout(false);
       this.menuStrip1.PerformLayout();
@@ -433,7 +433,7 @@ namespace JeutieControl
 
     private void Form1_Load(object sender, EventArgs e)
     {
-      this.log.Text = "Welcome to Jeutie's Server Control Panel v2.0 !";
+      this.log.Text = "欢迎使用 Jeutie's 服务器控制面板 v2.0！本程序由鸦鸦重新汉化编译！";
       this.CheckForNewMachine();
       this.ServerPath.Text = Settings.Default.ServerPath;
       this.ApachePath.Text = Settings.Default.ApachePath;
@@ -483,10 +483,10 @@ namespace JeutieControl
           return;
         this.authServer.Start();
         ++this.authServerRestartCount;
-        this.Log("Stopped the Auth server.  Restarting...");
+        this.Log("认证服务器已停止。正在重启...");
       }
       else
-        this.Log("Stopped the Auth server.");
+        this.Log("认证服务器已停止。");
     }
 
     private void autoRestartWorldServer(object sender, EventArgs e)
@@ -497,10 +497,10 @@ namespace JeutieControl
           return;
         this.worldServer.Start();
         ++this.worldServerRestartCount;
-        this.Log("Stopped the World server.  Restarting...");
+        this.Log("世界服务器已停止。正在重启...");
       }
       else
-        this.Log("Stopped the World server.");
+        this.Log("世界服务器已停止。");
     }
 
     private void ChangeOpacity(object menuSelection, double opacity)
@@ -638,21 +638,21 @@ namespace JeutieControl
       {
         if (!this.isServerPathCorrect)
         {
-          this.Log("Error!  Can't start the World server, incorrect path.");
+          this.Log("错误！无法启动World服务器，路径不正确。");
           return;
         }
         else if (this.IsProcessRunning("worldserver"))
         {
-          this.Log("Error!  World server is already started.");
+          this.Log("错误！世界服务器已在运行。");
           return;
         }
         else if (!this.IsProcessRunning("mysqld"))
         {
-          this.Log("Error!  Please start MySQL server first.");
+          this.Log("错误！请先启动MySQL服务器。");
           return;
         }
         this.worldServer.Start();
-        this.Log("Started the World server.");
+        this.Log("世界服务器已启动。");
       }
       catch (InvalidOperationException)
       {
@@ -678,21 +678,21 @@ namespace JeutieControl
       {
         if (!this.isServerPathCorrect)
         {
-          this.Log("Error!  Can't start the Auth server, incorrect path.");
+          this.Log("错误！无法启动Auth服务器，路径不正确。");
           return;
         }
         else if (this.IsProcessRunning("authserver"))
         {
-          this.Log("Error!  Auth server is already started.");
+          this.Log("错误！认证服务器已在运行。");
           return;
         }
         else if (!this.IsProcessRunning("mysqld"))
         {
-          this.Log("Error!  Please start MySQL server first.");
+          this.Log("错误！请先启动MySQL服务器。");
           return;
         }
         this.authServer.Start();
-        this.Log("Started the Auth server.");
+        this.Log("认证服务器已启动。");
       }
       catch (InvalidOperationException)
       {
@@ -718,16 +718,16 @@ namespace JeutieControl
       {
         if (!this.isMysqlPathCorrect)
         {
-          this.Log("Error!  Can't start the MySQL server, incorrect path.");
+          this.Log("错误！无法启动MySQL服务器，路径不正确。");
           return;
         }
         else if (this.IsProcessRunning("mysqld"))
         {
-          this.Log("Error!  MySQL server is already started.");
+          this.Log("错误！MySQL服务器已在运行。");
           return;
         }
         this.mySQL.Start();
-        this.Log("Started the MySQL server.");
+        this.Log("MySQL服务器已启动。");
       }
       catch (InvalidOperationException)
       {
@@ -741,7 +741,7 @@ namespace JeutieControl
         if (/*this.mySQL.HasExited ||*/!this.KillProcess("mysqld") || !this.IsProcessRunning("mysqld"))
           return;
         this.KillProcess("mysqld");
-        this.Log("Stopped the MySQL server.");
+        this.Log("MySQL服务器已停止。");
       }
       catch (InvalidOperationException)
       {
@@ -754,16 +754,16 @@ namespace JeutieControl
       {
         if (!this.isApachePathCorrect)
         {
-          this.Log("Error!  Can't start the Apache server, incorrect path.");
+          this.Log("错误！无法启动Apache服务器，路径不正确。");
           return;
         }
         else if (this.IsProcessRunning("httpd"))
         {
-          this.Log("Error!  Apache server is already started.");
+          this.Log("错误！Apache服务器已在运行。");
           return;
         }
         this.apache.Start();
-        this.Log("Started the Apache server.");
+        this.Log("Apache服务器已启动。");
       }
       catch (InvalidOperationException)
       {
@@ -777,7 +777,7 @@ namespace JeutieControl
         if (/*this.apache.HasExited ||*/!this.KillProcess("httpd") || !this.IsProcessRunning("httpd"))
           return;
         this.KillProcess("httpd");
-        this.Log("Stopped the Apache server.");
+        this.Log("Apache服务器已停止。");
       }
       catch (InvalidOperationException)
       {
@@ -814,7 +814,7 @@ namespace JeutieControl
       if (this.isServerPathCorrect)
         Process.Start("notepad.exe", this.ServerPath.Text + "\\worldserver.conf");
       else
-        this.Log("Error!  Can't open the config file, incorrect server path.");
+        this.Log("错误！无法打开配置文件，服务器路径不正确。");
     }
 
     private void openAuthserverConfigToolStripMenuItem_Click(object sender, EventArgs e)
@@ -822,7 +822,7 @@ namespace JeutieControl
       if (this.isServerPathCorrect)
         Process.Start("notepad.exe", this.ServerPath.Text + "\\authserver.conf");
       else
-        this.Log("Error!  Can't open the config file, incorrect server path.");
+        this.Log("错误！无法打开配置文件，服务器路径不正确。");
     }
 
     private void Log(string text)

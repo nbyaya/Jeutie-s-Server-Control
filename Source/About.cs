@@ -55,7 +55,7 @@ namespace JeutieControl
       this.button1.Name = "button1";
       this.button1.Size = new Size(175, 30);
       this.button1.TabIndex = 4;
-      this.button1.Text = "Close";
+      this.button1.Text = "关闭";
       this.button1.UseVisualStyleBackColor = true;
       this.button1.Click += new EventHandler(this.button1_Click);
       this.richTextBox1.Anchor = AnchorStyles.Left | AnchorStyles.Right;

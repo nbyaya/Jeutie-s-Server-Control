@@ -48,7 +48,7 @@ namespace JeutieControl
       this.textBox1.ReadOnly = true;
       this.textBox1.Size = new Size(443, 27);
       this.textBox1.TabIndex = 1;
-      this.textBox1.Text = "How to use this program.";
+      this.textBox1.Text = "如何使用此程序。";
       this.textBox2.BackColor = SystemColors.Control;
       this.textBox2.BorderStyle = BorderStyle.None;
       this.textBox2.Font = new Font("Microsoft Sans Serif", 11.25f, FontStyle.Bold, GraphicsUnit.Point, (byte) 0);
@@ -60,7 +60,7 @@ namespace JeutieControl
       this.textBox2.ReadOnly = true;
       this.textBox2.Size = new Size(443, 27);
       this.textBox2.TabIndex = 3;
-      this.textBox2.Text = "Important!";
+      this.textBox2.Text = "重要！";
       this.richTextBox2.BackColor = SystemColors.Control;
       this.richTextBox2.BorderStyle = BorderStyle.None;
       this.richTextBox2.ForeColor = Color.Firebrick;
@@ -74,7 +74,7 @@ namespace JeutieControl
       this.button1.Name = "button1";
       this.button1.Size = new Size(231, 32);
       this.button1.TabIndex = 4;
-      this.button1.Text = "Close";
+      this.button1.Text = "关闭";
       this.button1.UseVisualStyleBackColor = true;
       this.button1.Click += new EventHandler(this.button1_Click);
       this.AutoScaleDimensions = new SizeF(6f, 13f);

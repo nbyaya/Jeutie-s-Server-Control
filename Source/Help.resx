@@ -118,18 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="richTextBox1.Text" xml:space="preserve">
-    <value>The controls of this application are self explanatory. Before using it, you will have to define the locations of the respective executables. The server path needs to be pointed to the core folder in which the Authserver and Worldserver applications reside. The MySQL path needs to be pointed to the Server/MySQL/bin folder. Last but not least, the Apache path needs to be pointed to the Server/Apache/bin folder. 
+    <value>本应用程序的控件说明一目了然。在使用之前，您需要定义相应可执行文件的位置。服务器路径需要指向Authserver和Worldserver应用程序所在的core文件夹。MySQL路径需要指向Server/MySQL/bin文件夹。最后但同样重要的是，Apache路径需要指向Server/Apache/bin文件夹。
 
-After successfully pointing each path to the correct location, the red label will turn into green indicating the application is ready to run.  
+成功将每个路径指向正确位置后，红色标签将变为绿色，表示应用程序已准备就绪。
 
-If checked, the auth and world servers can automatically restart upon any crashes. Be sure to uncheck this box before trying to stop the servers. The MySQL server is mandatory for the auth and world servers to succesfully boot, the Apache server is optional. 
+如果选中，认证服务器和世界服务器在崩溃时可以自动重启。在尝试停止服务器之前，请务必取消选中此框。MySQL服务器是认证服务器和世界服务器成功启动的必要条件，Apache服务器是可选的。
 </value>
   </data>
   <data name="richTextBox2.Text" xml:space="preserve">
-    <value>1) The Apache server will not work if another application is utilizing port 80. Please either close the application, or change the port in the Apache configuration. Aditionally, the Apache server will not function properly if Apache was installed as a service.
+    <value>1) 如果其他应用程序正在使用80端口，Apache服务器将无法工作。请关闭该应用程序，或在Apache配置中更改端口。此外，如果Apache作为服务安装，Apache服务器将无法正常运行。
 
-2) The servers will not function if the paths aren't set correctly. Please set them correctly as explained above.
+2) 如果路径设置不正确，服务器将无法运行。请按照上述说明正确设置路径。
 
-3) This application will not properly work without the config file. Do not delete it. </value>
+3) 没有配置文件，此应用程序将无法正常工作。请勿删除配置文件。</value>
   </data>
 </root>

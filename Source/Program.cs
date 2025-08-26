@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Windows.Forms;
 using System.Threading;
 
@@ -23,8 +23,8 @@ namespace JeutieControl
                 else
                 {
                     MessageBox.Show(
-                        "An application instance is already running !",
-                        "Jeuties Server Restarter - Notice",
+                        "程序实例已在运行！",
+                        "Jeutie's 服务器控制面板 - 提示",
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Information
                     );
